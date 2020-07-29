@@ -1,7 +1,10 @@
-print('Hello Git World!')
-print('Hello from 127.0.0.1')
+def modulo(a, b):
+    return a % b
 
-for i in range(24):
-    print(i)
 
-print('learning to use Git!')
+def themains():
+    print("Madoido tu")
+
+
+if __name__ == "__main__":
+    themains()
