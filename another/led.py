@@ -1,4 +1,5 @@
 def led():
+    """This function asks for a numeric string input and outputs the seven-segment display of the number"""
     segs = [('  #', '  #', '  #', '  #', '  #'), ('###', '  #', '###', '#  ', '###'),
             ('###', '  #', '###', '  #', '###'), ('# #', '# #', '###', '  #', '  #'),
             ('###', '#  ', '###', '  #', '###'), ('###', '#  ', '###', '# #', '###'),
