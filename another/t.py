@@ -15,13 +15,13 @@ class Rect:
     def area(self):
         return self.length * self.width
 
-############################################################
+
 class Square(Rect):
 
     def __init__(self, length, **kwargs):
         super().__init__(length, length, **kwargs)
 
-###########################################################
+
 class Cube(Square):
 
     def __init__(self, length, name):
@@ -39,7 +39,7 @@ class Cube(Square):
     def say_name(self):
         print(self.name)
 
-###################################################
+
 class Triangle:
     def __init__(self, base, height, **kwargs):
         self.base = base
@@ -49,7 +49,7 @@ class Triangle:
     def tri_area(self):
         return .5 * self.base * self.height
 
-#######################################################
+
 class Pyramid(Square, Triangle):
     def __init__(self, base, slant_height, **kwargs):
         self.base = base
