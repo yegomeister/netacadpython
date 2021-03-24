@@ -1,5 +1,7 @@
-import another.read_an_integer as ri
+from sys import path
 
-v = ri.readint("Enter a number from -10 to 10: ", -10, 10)
+path.append('C:\\Users\\hp\\PycharmProjects\\netacadpython\\extra')
 
-print("The number is:", v)
+import iota
+
+print(iota.FunI())

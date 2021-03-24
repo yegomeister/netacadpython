@@ -1,12 +1,12 @@
 def mysplit(strng):
+    """A replica of python's built-in split() method"""
     lst = []
     word = ''
     for ch in strng:
         if ch != ' ':
             word += ch
-        elif ch == ' ':
-            if word != '':
-                lst.append(word)
+        elif word != '':
+            lst.append(word)
             word = ''
             continue
 
